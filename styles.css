@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    background: #F1ECE3;
+    background: color(display-p3 0.9412 0.9255 0.8941);
+}
+
+
+#all-for-one{
+    display: inline-flex;
+    padding: 54px 113.935px 239.935px 113.935px;
+    flex-direction: column;
+    align-items: center;
+    gap: 114.935px;
+    justify-content: center;
+}
+
+#main-container{
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 34px; 
+}
+
+#hi-there-txt{
+    align-self: stretch;
+    
+    -webkit-text-stroke-color: #000;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: color(display-p3 0 0 0);
+    font-family: "IBM Plex Sans";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #0000;
+}
+
+#about-container{
+    display: flex;
+    padding: 13px 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#introduction{
+    display: flex;
+    max-width: 850px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#name{
+    align-self: stretch;
+
+    color: #3D3D3D;
+    color: color(display-p3 0.2392 0.2392 0.2392);
+    font-family: "Space Mono";
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -5.76px;
+}
+
+#description{
+    max-width: 850px;
+
+    color: #000;
+    color: color(display-p3 0 0 0);
+    font-family: "Space Grotesk";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-container{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: #F00;
+
+    background: url(assets/logo_border.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    width: 90%;
+    height: 90%;
+
+    background-image: url(assets/logo.png);
+    background-color: white;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    mask-image: url(assets/logo_blob.svg);
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-size: cover;
+
+    -webkit-mask-image: url(assets/logo_blob.svg);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    -webkit-mask-size: cover;
+
+    transform: translate(3%, 3%);
+}
+
+
